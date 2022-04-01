@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/972a435119.js" crossorigin="anonymous"></script>
+    <title>Danilo Petrovic Personal Portfolio</title>
+</head>
+<body>
+    <!-- Loader start -->
+    <div class="loader">Loading...</div>
+    <!-- LOader End -->
+
+    <!-- Hamburger menu start-->
+    <div class="menu-btn">
+        <div class="menu-btn__burger"></div>
+      </div>
+    <!-- Hamburger menu end -->
+
+    <!-- Arrow up start -->
+      
+    <a href="#header" class="arrow-up">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+<!-- Arrow up end -->
+
+    <!-- Sidebar start -->
+    <div class="sidebar">
+        <ul class="sidebar__links">
+            <li class="sidebar__link" id="home-sidebar">
+                <a href="#header">Home</a>
+            </li>
+            <li class="sidebar__link" id="about-sidebar">
+                <a href="#about">About</a>
+            </li>
+            <li class="sidebar__link" id="skills-sidebar">
+                <a href="#skills">Skills</a>
+            </li>
+            <li class="sidebar__link" id="contact-sidebar">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Sidebar end -->
+
+    <!-- Sidebar Social network start -->
+    <div class="sidebar-social">
+        <div class="sidebar-social__item">
+            <a href="https://www.facebook.com/danilo.petrovic3/" target="blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="sidebar-social__item">
+            <a href="https://www.instagram.com/danilo.macak/?hl=en" target="blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="sidebar-social__item">
+            <a href="https://rs.linkedin.com/in/danilo-petrovic-62b067204?trk=people-guest_people_search-card" target="blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="sidebar-social__item">
+            <a href="https://github.com/danilopetrovic88" target="blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    <!-- Sidebar Social network end -->
+
+
+<div class="container hide">
+    <!-- Header start -->
+    <header class="header" id="header">
+        <!-- Navbar start -->
+        <nav class="navbar">
+            <ul class="navbar__links">
+                <li class="navbar__link" id="home-navbar">
+                    <a href="#header">Home</a>
+                </li>
+                <li class="navbar__link" id="about-navbar">
+                    <a href="#about">About</a>
+                </li>
+                <li class="navbar__link" id="skills-navbar">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="navbar__link" id="contact-navbar">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    <!-- Navbar end -->
+        <div class="header__heading">
+            <h1>Hello</h1>
+            <h1>I'm <span>Danilo</span>!</h1>
+            <h1>Welcome to my</h1>
+            <h1>PORTFOLIO</h1>
+
+            <a href="#contact" class="btn btn--header">Contact me</a>
+        </div>
+
+        <!-- <img src="/images/img3.png" alt="Image" class="header__img"> -->
+    </header>
+    <!-- Header end -->
+
+    <!-- About section start -->
+    <section class="about" id="about">
+        <div class="about__heading">
+            <h1>About Me</h1>
+            <p>Hello, my name is Danilo Petrović, Front-End Developer based in Vrbas, Serbia. I am dedicated, ambitious and hardworking... I'm giving my best in learning new technologies that will improve my development skills. I have been involved in music since I was a child. Behind me are years, days and hours of practice and dedication to music. Now I am focusing all that energy on programming with the same commitment.</p>
+
+            <div class="about__skills">
+                <div class="skills__item">
+                    <h3>HTML <span>90%</span></h3>
+                    <div class="line">
+                        <div class="line--orange"></div>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <h3>CSS <span>90%</span></h3>
+                    <div class="line">
+                        <div class="line--blue"></div>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <h3>JavaScript <span>70%</span></h3>
+                    <div class="line">
+                        <div class="line--yellow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about__animation">
+            <div class="pyramid-wrap">
+                <div class="pyramid-rotate">
+                    <div class="face front"><i class="fab fa-html5" style="color: orangered;"></i></div>
+                    <div class="face back"><i class="fab fa-css3" style="color: blue;"></i></div>
+                    <div class="face left"><i class="fab fa-js-square" style="color: yellow;"></i></div>
+                    <div class="face right"></div>
+                    <div class="face bottom"></div>
+                    
+                    <!-- <div class="shadow"></div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section end -->
+
+     <!-- Tehnologies section start -->
+     <section class="skills" id="skills">
+
+        <h1 class="skills__heading">SKILLS</h1>
+
+        <div class="skills__container">
+            <div class="skills__item">
+                <i class="fab fa-html5" style="color: orangered"></i>
+                <h1>HTML</h1>
+                <p>Creating HTML structure, inserting pictures, links...</p>
+            </div>
+            <div class="skills__item">
+                <i class="fab fa-css3-alt" style="color: blue"></i>
+                <h1>CSS</h1>
+                <p id="css-para">CSS is my prymary skill. Building full websites with pure css. Changing style of HTML elements, animations, css grid and flexbox...</p>
+            </div>
+            <div class="skills__item">
+                <i class="fab fa-js-square" style="color: orange"></i>
+                <h1>JavaScript</h1>
+                <p>Variables, functions, data types, conditional statments, DOM, objects, arrays, loops.</p>
+            </div>
+            <div class="skills__item">
+                <i class="fab fa-sass" style="color: pink"></i>
+                <h1>Sass</h1>
+                <p>Using sass to nest elements. Using variables and mixins.</p>
+            </div>
+            <div class="skills__item">
+                <i class="fab fa-git-square" style="color: rgb(231, 36, 36)"></i>
+                <h1>Git</h1>
+                <p>Using git to tracking changes in files.</p>
+            </div>
+            <div class="skills__item">
+                <i class="fas fa-laptop" style="color: #4c0000"></i>
+                <h1>Responsive</h1>
+                <p>Mobile first aproach. Adapting aplications for different screens using media queries</p>
+            </div>
+        </div>
+    </section>
+    <!-- Tehnologies section end -->
+
+    <!-- Gallery start -->
+    <section class="gallery">
+        <h1>GALLERY</h1>
+        <div class="gallery__grid" id="galleryGrid">
+        
+        </div>
+    </section>
+    <!-- Gallery end -->
+
+    <!-- Contact section start -->
+    <section class="contact" id="contact">
+        <div class="contact__heading">
+            <h1>CONTACT ME</h1>
+            <h4>If you wish to hire me use contact information provided bellow.</h4>
+        </div>
+
+        <div class="contact__items">
+            <div class="contact__item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p><span>City: </span>Vrbas, Serbia</p>
+            </div>
+            <div class="contact__item">
+                <i class="fas fa-phone"></i>
+                <p><span>Phone: </span>069/48-80-619</p>
+            </div>
+            <div class="contact__item">
+                <i class="fas fa-envelope"></i>
+                <p><span>Email: </span>daniloljubica14@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="contact__footer">
+            <div class="footer__item">
+                <a href="https://www.facebook.com/danilo.petrovic3/" target="blank"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="footer__item">
+                <a href="https://www.instagram.com/danilo.macak/?hl=en" target="blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer__item">
+                <a href="https://rs.linkedin.com/in/danilo-petrovic-62b067204?trk=people-guest_people_search-card" target="blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="footer__item">
+                <a href="https://github.com/danilopetrovic88" target="blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="footer__copyright">
+            <p>Copyright © 2021</p>
+        </div>
+    </section>
+    <!-- Contact section end -->
+</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
